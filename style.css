@@ -1,0 +1,1085 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&family=Vina+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    z-index: 1000;
+    width: 100vw;
+    height: 66px;
+    background-color: rgb(16, 53, 87);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    transition: all 1s linear;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.headerLeft {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 7px;
+    left: -150PX;
+    gap: 20px;
+    align-items: baseline;
+    /* -webkit-box-align: center; */
+}
+
+.headerRight{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 15px;
+}
+
+.headerLeft #secure{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+
+#edzorbLaw{
+    height: 53.31px;
+    width: 182px;
+    position: relative;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-50%,-50%);
+}
+
+.podcast img{
+    width: 30px;
+    height: 31px;
+    position: relative;
+    top: 8px;
+}
+
+.playstore{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.appstore{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    top: -3px;
+}
+
+.loginButton{
+    width: 100px;
+    height: 39.13px;
+    border-radius:10px ;
+    padding: 0px 18.768px;
+    font-weight: bold;
+    background-color: #EDA404;
+    font-size: 15.678PX;
+}
+
+.loginButton:hover{
+    cursor: pointer;
+    color: white;
+    outline: white;
+}
+
+.signUpButton{
+    width: 100px;
+    height: 39.13px;
+    border-radius: 10px;
+    font-size: 15.678PX;
+    font-weight: bold;
+}
+
+.signUpButton:hover{
+    cursor: pointer;
+    color: #EDA404;
+}
+/* .main{
+    position: relative;
+    margin-top: 100px;
+    top: 200px;
+} */
+.advertise{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 452px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: rgb(18, 41, 63);
+    /* position: relative;
+    top: 50px; */
+}
+.advertise .ad{
+    display: flex;
+    flex-direction: column;
+    color:white ;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+.advertise .ad .imagesOfGooglePlayAndAppStore{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 10px;
+}
+.advertise .ad .imagesOfGooglePlayAndAppStore img{
+    width: 122.96px;
+    height: 38.35px;
+}
+.advertise .ad .turnYour{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.advertise .ad .dreamInto{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.advertise .ad .revolutionary{
+    font-size: 20.8px;
+    font-weight: 400;
+}
+.advertise .ad .preparation{
+    font-size: 20.8px;
+    font-weight: 400;
+}
+
+.highlight{
+    width: 421px;
+    height: 43.28px;
+    background-color: white;
+    margin: 20.8px 0px;
+    padding: 10px;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+.advertise .ad .mostDownload{
+    color: black;
+    font-weight: 900;
+    font-size: 20.8px;
+}
+.photo{
+    position: relative;
+    left: -80px;
+}
+.readReviews{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100vw;
+    font-size: 15.96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.readReviews a{
+    color: white;
+}
+.readReviews img{
+    height: 15.96px;
+}
+.lawDifference{
+    display: flex;
+    flex-direction: row;
+    height: 259.68px;
+    width: 100vw;
+    background-color: #91cdf2a9;
+    font-size: 47.6px;
+    justify-content: center;
+    box-shadow: 0px 10px 15px #91cdf2a9;
+}
+
+.lawDifference p{
+    position: relative;
+    top: 50px;
+    color: rgb(1, 50, 78);
+    font-weight: bolder;
+}
+.lawDifference img{
+    height: 159.68px;
+}
+.leftLeaf{
+    position: relative;
+    left: 60px;
+}
+.rightLeaf{
+    position: relative;
+    left: -60px;
+}
+.documentsCards{
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 604px;
+    width: 1050px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(69, 68, 68);
+    border-radius: 70px;
+    padding: 0px 15px 30px;
+}
+.leftWindow{
+    width: 359px;
+    height: 509px;
+    box-shadow: 0px 0px 15px rgb(99, 96, 96);
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.leftWindow img{
+    max-width:100%;
+    max-height:100%;
+    border-radius: 20px;
+}
+.rightWindow1{
+    width: 480px;
+    height: 509px;
+    /* box-shadow: 0px 0px 5px rgb(48, 48, 48); */
+    margin-top: 120px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+.rightWindow1 h1{
+    font-size: 1.6em;
+    position: relative;
+    left: -20px;
+    /* margin-top: 60px; */
+}
+.rightWindow1 ul li{
+    margin: 20px 0px;
+    font-size: 16px;
+}
+.downloadButton{
+    width: 204px;
+    height: 50px;
+    background-color: #01324e;
+    color: white;
+    font-weight: bold;
+    font-size: 17.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px;
+}
+.downloadButton:hover{
+    cursor: pointer;
+}
+.freeMentorship{
+    background-image: url('https://edzorblaw.com/wp-content/uploads/2023/06/bg-4.png');
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 200px;
+    color: rgb(10, 24, 37);
+    font-weight: bold;
+}
+.mentorshipCard{
+    width: 465px;
+    height: 465px;
+    box-shadow: 0px 0px 10px rgb(99, 96, 96);
+    border-radius: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.mentorshipCard img{
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+.mentorshipRight{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 325px;
+    background: none;
+    margin-left: 50px;
+    gap: 30px;
+    margin-top: 110px;
+}
+.mentorshipRight .joinedStudents{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.mentorshipRight .joinedStudents img{
+    width: 193.75px;
+    height: 36.73px;
+}
+.mentorshipRight .ready{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.mentorshipRight button{
+    width: 280px;
+    height: 40px;
+    font-size: 18.4px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(20, 34, 48);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(47, 46, 46);
+}
+.mentorshipRight button:hover{
+    cursor: pointer;
+    background-color: rgb(1, 4, 7);
+    box-shadow: none;
+}
+.strikeRate{
+    background-image: url('https://edzorblaw.com/wp-content/uploads/2023/05/blur.png');
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 600px;
+    font-size: 47.6px;
+    font-weight: bold;
+}
+.strikeRate img{
+    width: 115px;
+    height: auto;
+}
+.strikeRate p{
+    position: relative;
+    top: 45px;
+}
+.strikeRateLeftLeaf{
+    position: relative;
+    left: 50px;
+}
+.strikeRateRightLeaf{
+    position: relative;
+    left: -60px;
+}
+.strikeRateStats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.hexagon{
+    height: 350px;
+    width: 290px;
+    position: relative;
+    box-shadow: 0px 0px 10px grey;
+    border: 10px black;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+    gap: 8px;
+}
+.hexagon button{
+    width: 87px;
+    height: 27px;
+    background-color: rgb(23, 45, 66);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.hexagon button:hover{
+    background-color: rgb(2, 8, 14);
+    cursor: pointer;
+}
+.cup{
+    width: 168px;
+    height: 134px;
+}
+.hexagon .flag{
+    width: 210px;
+    height: 57.28px;
+    background-image: url('https://edzorblaw.com/wp-content/uploads/2023/07/brush-strokes-dimen-18.png');
+}
+.unordered_list{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 3px;
+}
+.unordered_list .circle{
+    height: 12px;
+    width: 12px;
+    border-radius:50%;
+    border: 3px solid gray;
+}
+.unordered_list .circle:hover{
+    cursor: pointer;
+    border: 3px solid rgb(49, 48, 48);
+}
+.grayKardo{
+    height: 12px;
+    width: 12px;
+    border-radius:50%;
+    background-color: gray;
+    border: 3px solid gray;
+}
+.testimonials{
+    background-image: url('https://edzorblaw.com/wp-content/uploads/2023/05/blur-1024x105.png');
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 600px;
+    padding-top: 30px;
+    font-size: 47.6px;
+    font-weight: bold;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonials .testimonialsLeftLeaf{
+    width: 115px;
+    height: 160px;
+    position: relative;
+    left: -50px;
+    z-index: 800;
+}
+.testimonials .testimonialsRightLeaf{
+    width: 115px;
+    height: 160px;
+    position: relative;
+    left: -150px;
+    z-index: 800;
+}
+.testimonials p{
+    position: relative;
+    top: 50px;
+    left: -100px;
+    font-size: 56px;
+}
+.testimonialCards{
+    width: 100vw;
+    height: 471px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: -130px;
+    font-size: 16px;
+}
+.testimonialCard{
+    width: 320px;
+    height: 471px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    box-shadow: 0px 10px 10px rgb(100, 99, 99);
+    gap: 20px;
+    padding: 20px 55px;
+    border-radius: 20px;
+    border-top: none;
+    text-align: center;
+}
+.testimonialCardWindow{
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.testimonialUnordered_list{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+    gap: 7px;
+}
+.testimonialUnordered_list .circle{
+    height: 12px;
+    width: 12px;
+    border-radius:50%;
+    border: 3px solid gray;
+}
+.testimonialUnordered_list .circle:hover{
+    cursor: pointer;
+    border: 3px solid rgb(49, 48, 48);
+}
+.whatMakesUnique{
+    background: url('https://edzorblaw.com/wp-content/uploads/2023/05/blur-1024x105.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.whatMakesUnique h1{
+    font-size: 3.5em;
+    position: relative;
+    top: -30px;
+}
+.whatMakesUnique .whatMakesUniqueLeftLeaf{
+    position: relative;
+    left: 60px;
+    width: 115px;
+    height: 160px;
+    top: -30px;
+}
+.whatMakesUnique .whatMakesUniqueRightLeaf{
+    position: relative;
+    left: -60px;
+    width: 115px;
+    height: 160px;
+    top: -30px;
+}
+.whatMakesUniqueCards{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 100px;
+    width: 1050px;
+    height: 343px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.whatMakesUniqueCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    height: 343px;
+    width: 201px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    padding: 19px 30px;
+    gap: 20px;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s linear;
+}
+.whatMakesUniqueCardWindow{
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+.whatMakesUniqueCardWindow img{
+    width: 60%;
+    height: 60%;
+}
+.whatMakesUniqueCard:hover{
+    cursor: pointer;
+    top: -5px;
+}
+.whatMakesUniqueUnordered_list{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+    gap: 7px;
+    position: relative;
+    top: 50px;
+}
+.whatMakesUniqueUnordered_list .circle{
+    height: 12px;
+    width: 12px;
+    border-radius:50%;
+    border: 3px solid gray;
+}
+.whatMakesUniqueUnordered_list .circle:hover{
+    cursor: pointer;
+    border: 3px solid rgb(49, 48, 48);
+}
+.latestVideos{
+    background-image: url('https://edzorblaw.com/wp-content/uploads/2023/05/blur-1024x105.png');
+    background-size: cover;
+    width: 100vw;
+    height: 271px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.latestVideos h1{
+    font-weight: 700;
+    font-size: 3.5em;
+    position: relative;
+    top: -20px;
+}
+.latestVideos .latestVideosLeftLeaf{
+    width: 115px ;
+    height: 160px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+.latestVideos .latestVideosRightLeaf{
+    width: 115px ;
+    height: 160px;
+    position: relative;
+    top: -20px;
+    left: -30px;
+}
+.latestVideosCards{
+    width: 100vw;
+    height: 256px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: -55px;
+}
+.latestVideosCard{
+    width: 320px;
+    height: 256px;
+    border-radius: 20px;
+}
+.latestVideosCard img{
+    border-radius: 20px;
+}
+
+.latestVideosUnordered_list{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.latestVideosUnordered_list .circle{
+    height: 12px;
+    width: 12px;
+    border-radius:50%;
+    border: 3px solid gray;
+}
+.latestVideosUnordered_list .circle:hover{
+    cursor: pointer;
+    border: 3px solid rgb(49, 48, 48);
+}
+.getStartedToday{
+    background-image: url('https://edzorblaw.com/wp-content/uploads/2023/05/blur-1024x105.png');
+    height: 290px;
+    margin-top: 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.getStartedTodayLeftLeaf{
+    width: 115px;
+    height: 160px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+.getStartedTodayRightLeaf{
+    width: 115px;
+    height: 160px;
+    position: relative;
+    top: -40px;
+    left: -30px;
+}
+.getStartedToday h1{
+    font-weight: 700;
+    font-size: 3.5em;
+    position: relative;
+    top: -40px;
+}
+.getStartedTodayCards{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+.getStartedTodayCard{
+    width: 330px;
+    height: 655px;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    padding: 40px 35px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+.getStartedTodayCard .topMiddle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+.getStartedTodayCard .topMiddle .launchTime{
+    font-size: 18px;
+    color: #5772FF;
+    font-weight: 900;
+}
+.getStartedTodayCard .topMiddle .duration{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.topPhoto{
+
+    width: 79px;
+    height: 75.8px;
+    background-color: rgb(199, 191, 191);
+    padding: 5px;
+    border-radius: 10px;
+}
+.lowerIcons{
+    position: relative;
+    top: 10px;
+}
+.lowerIcons img{
+    width: 50px;
+    height: 52px;
+}
+.getStartedTodayCard table tr{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.getStartedTodayCard table tr td{
+    padding: 8px;
+}
+.getStartedTodayCard:hover{
+    background-color: #01324e;
+    color: white !important;
+}
+.buyNow{
+    width: 121px;
+    height: 39px;
+    background-color: #01324e;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.getStartedTodayCard:hover{
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+}
+
+.getStartedTodayCardsUnordered_list{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    gap: 3px;   
+}
+.getStartedTodayCardsUnordered_list .circle{
+    height: 12px;
+    width: 12px;
+    border-radius:50%;
+    border: 3px solid gray;
+}
+.getStartedTodayCardsUnordered_list .circle:hover{
+    cursor: pointer;
+    border: 3px solid rgb(49, 48, 48);
+}
+.browseAllCourses{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 40px;
+    width: 197.4px;
+    height: 39px;
+    font-size: 15.52px;
+    background-color:#01324e;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.browseAllCourses:hover{
+    cursor: pointer;
+    background-color:#0d3951;
+}
+.footer{
+    margin-top: 150px;
+}
+.footer1{
+    height: 834px;
+    background-color: #01324e;
+    align-items: center;
+    color: white;
+    padding: 10px 0px 0px 0px;
+}
+.footer1Content{
+    width: 100vw;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+.footer1 h1{
+    margin-top: 30px;
+    font-size: 40.8px;
+    position: relative;
+    left: 600px;
+}
+.footer1Content .footer1ContentLeft{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+.footer1Content .footer1ContentRight{
+    width: 550px;
+    height: 500px;
+    background-image: url('https://edzorblaw.com/wp-content/uploads/2023/08/Asset-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+    font-weight: bold;
+}
+.footer1ContentRight h2{
+    position: relative;
+    left: -20px;
+    font-size: 24.2px;
+}
+.footer1ContentRight .inputInMobilePhone{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer1ContentRight input{
+    width: 208px;
+    height: 35px;
+    border-radius: 10px;
+    position: relative;
+    top: -60px;
+}
+.footer1ContentRight .yourMessage{
+    height: 100px;
+}
+.footer1ContentRight  button{
+    background-color:#01324e ;
+    color: white;
+    font-weight: bold;
+    width: 95px;
+    height: 35px;
+    position: relative;
+    top: -80px;
+    border-radius: 7px;
+}
+textarea {
+    width: 208px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    position: relative;
+    top: -70px;
+    outline: 20px;
+}
+.footer1ContentRight .phoneIcon{
+    width: 37.66px;
+    height: 37.66px;
+    position: relative;
+    top: -70px;
+    left: 90px;
+    transform: rotate(20deg);
+}
+.footer1ImagesTop{
+    display: flex;
+    gap: 150px;
+}
+.footer1ImagesBottom{
+    display: flex;
+    gap: 120px;
+}
+.footer1ContentRight img{
+    height: 500px;
+}
+.footer1ImagesTop1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.footer1ImagesTop2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.footer1ImagesBottom1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer1ImagesBottom2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    left: -20px;
+}
+.footer1Images img{
+    width: 60px;
+    height: 60px;
+}
+.footer1Images{
+    position: relative;
+    left: 20px;
+}
+.footer1ContentRight{
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.footer2{
+    height: 363px;
+    background-color: #064163;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    padding-top: 30px;
+}
+.footer2 .footer21{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer2 .footer22{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer22 button{
+    width: 122px;
+    height: 28px;
+    border-radius: 10px;
+    background-color:#EDA404;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer2 .footer23{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer2 .footer24{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer24 input{
+    width: 188px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+}
+.footer24 button{
+    position: relative;
+    left: -10px;
+    width: 92px;
+    background-color:#EDA404;
+    border-radius: 10px;
+}
+.footer2 .edzorbLaw{
+    width: 200px;
+    height: 59px;
+}
+.footer2 .appStorePhotos img{
+    width: 100px;
+    height: 31.19px;
+}
+.footer2 .contactLinks img{
+    width: 40px;
+    height: 40px;
+}
+.signUpInput{
+    display: flex;
+    gap: 0;
+}
+.footer24JoinedStudents{
+    display: flex;
+}
+.footer24JoinedStudents img{
+    width: 74px;
+    height: 19.09px;
+}
+.footer3{
+    height: 63px;
+    background-color: #01324e;
+    display: flex;
+    color: #83b6d4;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer3 a{
+    color: #83b6d4;
+    text-decoration: none;
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.05;
+}
+img:hover{
+    cursor: pointer;
+}
